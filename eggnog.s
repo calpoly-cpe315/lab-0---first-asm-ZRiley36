@@ -19,4 +19,4 @@ main:
 	ret
 
 message:
-	.asciz "Hello, world!\n"
+	.asciz "Brandy, rum, bourbon\nIt all works - even whiskey\nTipsy off eggnog\n"
