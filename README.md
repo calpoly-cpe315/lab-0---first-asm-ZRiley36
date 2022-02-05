@@ -4,7 +4,7 @@
 
 * Zachary Riley. I normally go by Zach, but either is fine.
 * Status of lab:
-  * Complete
+  * incomplete
 * Compilation and execution instructions
   * `gcc -o eggnog eggnog.s`
   * `./eggnog`
