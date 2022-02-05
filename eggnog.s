@@ -7,7 +7,10 @@ main:
     // Load the argument and perform the call. Like 'printf("...")' in C.
 	ldr	x0, =message
 	bl	printf
-
+   ldr   x0, =line2
+   bl printf
+   ldr   x0, =line3
+   bl printf
     // initialize the return value in the return register
 	mov	x0, 0
 
@@ -19,4 +22,8 @@ main:
 	ret
 
 message:
-	.asciz "Brandy, rum, bourbon\nIt all works - even whiskey\nTipsy off eggnog\n"
+	.asciz "Brandy, rum, bourbon\n"
+line2:
+   .asciz "It all works - even whiskey\n"
+line3:
+   .asciz "Tipsy off eggnog\n"
